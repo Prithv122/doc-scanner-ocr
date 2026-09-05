@@ -6,19 +6,28 @@ Form: **action → technical specifics → measured outcome.** Numbers or it doe
 
 ## Bullets
 
-- _..._
-- _..._
+- Built a classical-CV document scanner (OpenCV Canny/contour detection, perspective
+  correction) feeding PaddleOCR for structured text extraction, achieving 100% document
+  detection and 5.1px mean corner error on real photographed documents (SmartDoc 2015 dataset).
+- Measured a 50% vs. 2.2% OCR key-phrase recall gap between two image-enhancement methods
+  (CLAHE vs. adaptive thresholding) against real photos, correcting an assumption most
+  tutorials leave unexamined and driving the project's enhancement default.
+- Found and fixed a detection-threshold bug invisible to synthetic tests: a document-area
+  filter tuned on close-up synthetic images rejected 100% of real phone-camera photos (where
+  the page occupies only 9-15% of frame); a one-parameter fix restored full detection.
 
 ## Which roles this supports
 
-- [ ] Data Scientist / ML
-- [ ] AI Engineer (LLM/NLP/CV)
+- [x] Data Scientist / ML
+- [x] AI Engineer (LLM/NLP/CV)
 - [ ] Data Engineer
-- [ ] Data Analyst / Python Developer
+- [x] Data Analyst / Python Developer
 
 ## Keywords this project earns
 
-_Only list what you actually used and could be questioned on._
+OpenCV, perspective transform, contour detection, PaddleOCR, image enhancement (CLAHE,
+adaptive thresholding), OCR evaluation, classical computer vision (non-deep-learning),
+Python, pytest, CI/CD.
 
 ---
 
