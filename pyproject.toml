@@ -7,7 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "opencv-python-headless>=4.10",
     "paddleocr>=3.7",
-    "paddlepaddle>=3.3",
+    "paddlepaddle==3.2.2",
 ]
 
 # Most projects here ship a CLI. Entry points REQUIRE a real build backend —
@@ -39,6 +39,9 @@ dev = [
 pythonpath = ["src"]
 testpaths = ["tests"]
 addopts = "-q"
+markers = [
+    "network: needs PaddleOCR model weights download (cached after the first run)",
+]
 
 [tool.ruff]
 line-length = 100
