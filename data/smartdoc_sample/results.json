@@ -1,0 +1,380 @@
+{
+  "summary": {
+    "n_frames": 9,
+    "detected": 9,
+    "mean_corner_error_px": 5.1,
+    "mean_iou": 0.9746,
+    "ocr_recall_by_method": {
+      "clahe": 0.5,
+      "adaptive": 0.022
+    }
+  },
+  "per_frame": [
+    {
+      "file": "datasheet001_f021.jpg",
+      "detected": true,
+      "mean_corner_error_px": 5.23,
+      "iou": 0.9797,
+      "ocr_by_method": {
+        "clahe": {
+          "recall": 1.0,
+          "phrases": [
+            {
+              "phrase": "AZ23C2V7 THRU AZ23C51",
+              "matched": true,
+              "best_ocr_line": "AZ23C2V7 THRU AZ23C51",
+              "similarity": 1.0
+            },
+            {
+              "phrase": "Dual Surface Mount Zener Diode",
+              "matched": true,
+              "best_ocr_line": "Dual Surface Mount Zener Diode",
+              "similarity": 1.0
+            },
+            {
+              "phrase": "Features",
+              "matched": true,
+              "best_ocr_line": "Features",
+              "similarity": 1.0
+            },
+            {
+              "phrase": "Mechanical Data",
+              "matched": true,
+              "best_ocr_line": "Mechanical Data",
+              "similarity": 1.0
+            },
+            {
+              "phrase": "Maximum Ratings and Electrical Characteristics",
+              "matched": true,
+              "best_ocr_line": "Maximum Ratings and Electrical Characteristics",
+              "similarity": 1.0
+            }
+          ]
+        },
+        "adaptive": {
+          "recall": 0.2,
+          "phrases": [
+            {
+              "phrase": "AZ23C2V7 THRU AZ23C51",
+              "matched": true,
+              "best_ocr_line": "AZ23C2V7 THRU AZ23C51",
+              "similarity": 1.0
+            },
+            {
+              "phrase": "Dual Surface Mount Zener Diode",
+              "matched": false,
+              "best_ocr_line": "Dun Surlare Mrm Tarm Cov",
+              "similarity": 0.407
+            },
+            {
+              "phrase": "Features",
+              "matched": false,
+              "best_ocr_line": "AZ23C2V7 THRU AZ23C51",
+              "similarity": 0.207
+            },
+            {
+              "phrase": "Mechanical Data",
+              "matched": false,
+              "best_ocr_line": "AZ23C2V7 THRU AZ23C51",
+              "similarity": 0.222
+            },
+            {
+              "phrase": "Maximum Ratings and Electrical Characteristics",
+              "matched": false,
+              "best_ocr_line": "Dun Surlare Mrm Tarm Cov",
+              "similarity": 0.171
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "datasheet001_f107.jpg",
+      "detected": true,
+      "mean_corner_error_px": 5.04,
+      "iou": 0.9767,
+      "ocr_by_method": {
+        "clahe": {
+          "recall": 0.5,
+          "phrases": [
+            {
+              "phrase": "AZ23C2V7 THRU AZ23C51",
+              "matched": true,
+              "best_ocr_line": "AZ23C2V7 THRU AZ23C51",
+              "similarity": 1.0
+            },
+            {
+              "phrase": "Dual Surface Mount Zener Diode",
+              "matched": true,
+              "best_ocr_line": "Dual Surlace Mount Zener Diode",
+              "similarity": 0.967
+            },
+            {
+              "phrase": "Features",
+              "matched": false,
+              "best_ocr_line": "Festuree",
+              "similarity": 0.75
+            },
+            {
+              "phrase": "Mechanical Data",
+              "matched": false,
+              "best_ocr_line": "chardeal Data",
+              "similarity": 0.714
+            }
+          ]
+        },
+        "adaptive": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "AZ23C2V7 THRU AZ23C51",
+              "matched": false,
+              "best_ocr_line": "A22C291 1) A",
+              "similarity": 0.424
+            },
+            {
+              "phrase": "Dual Surface Mount Zener Diode",
+              "matched": false,
+              "best_ocr_line": "A22C291 1) A",
+              "similarity": 0.143
+            },
+            {
+              "phrase": "Features",
+              "matched": false,
+              "best_ocr_line": "A22C291 1) A",
+              "similarity": 0.1
+            },
+            {
+              "phrase": "Mechanical Data",
+              "matched": false,
+              "best_ocr_line": "A22C291 1) A",
+              "similarity": 0.148
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "datasheet001_f181.jpg",
+      "detected": true,
+      "mean_corner_error_px": 5.54,
+      "iou": 0.9752,
+      "ocr_by_method": {
+        "clahe": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "AZ23C2V7",
+              "matched": false,
+              "best_ocr_line": "AF93G9V7 THRU AZ93GAT",
+              "similarity": 0.207
+            },
+            {
+              "phrase": "THRU AZ23C51",
+              "matched": false,
+              "best_ocr_line": "AF93G9V7 THRU AZ93GAT",
+              "similarity": 0.485
+            }
+          ]
+        },
+        "adaptive": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "AZ23C2V7",
+              "matched": false,
+              "best_ocr_line": null,
+              "similarity": 0.0
+            },
+            {
+              "phrase": "THRU AZ23C51",
+              "matched": false,
+              "best_ocr_line": null,
+              "similarity": 0.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "letter001_f017.jpg",
+      "detected": true,
+      "mean_corner_error_px": 4.76,
+      "iou": 0.9757,
+      "ocr_by_method": {
+        "clahe": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "PHILIP MORRIS",
+              "matched": false,
+              "best_ocr_line": "PHILIP MCRSIS",
+              "similarity": 0.846
+            }
+          ]
+        },
+        "adaptive": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "PHILIP MORRIS",
+              "matched": false,
+              "best_ocr_line": "RS",
+              "similarity": 0.267
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "letter001_f088.jpg",
+      "detected": true,
+      "mean_corner_error_px": 5.13,
+      "iou": 0.975,
+      "ocr_by_method": {
+        "clahe": {
+          "recall": 1.0,
+          "phrases": [
+            {
+              "phrase": "PHILIP MORRIS",
+              "matched": true,
+              "best_ocr_line": "PHILIP MORRIS",
+              "similarity": 1.0
+            }
+          ]
+        },
+        "adaptive": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "PHILIP MORRIS",
+              "matched": false,
+              "best_ocr_line": null,
+              "similarity": 0.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "letter001_f149.jpg",
+      "detected": true,
+      "mean_corner_error_px": 5.17,
+      "iou": 0.9736,
+      "ocr_by_method": {
+        "clahe": {
+          "recall": 1.0,
+          "phrases": [
+            {
+              "phrase": "PHILIP MORRIS",
+              "matched": true,
+              "best_ocr_line": "PHILIPMORRIS",
+              "similarity": 0.96
+            }
+          ]
+        },
+        "adaptive": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "PHILIP MORRIS",
+              "matched": false,
+              "best_ocr_line": "HHOP MORRIS",
+              "similarity": 0.75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "magazine001_f019.jpg",
+      "detected": true,
+      "mean_corner_error_px": 4.67,
+      "iou": 0.9756,
+      "ocr_by_method": {
+        "clahe": {
+          "recall": 1.0,
+          "phrases": [
+            {
+              "phrase": "Tackling Tibet",
+              "matched": true,
+              "best_ocr_line": "Tackding Tibet.",
+              "similarity": 0.897
+            }
+          ]
+        },
+        "adaptive": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "Tackling Tibet",
+              "matched": false,
+              "best_ocr_line": null,
+              "similarity": 0.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "magazine001_f099.jpg",
+      "detected": true,
+      "mean_corner_error_px": 5.32,
+      "iou": 0.9679,
+      "ocr_by_method": {
+        "clahe": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "Tackling Tibet",
+              "matched": false,
+              "best_ocr_line": null,
+              "similarity": 0.0
+            }
+          ]
+        },
+        "adaptive": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "Tackling Tibet",
+              "matched": false,
+              "best_ocr_line": null,
+              "similarity": 0.0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "file": "magazine001_f168.jpg",
+      "detected": true,
+      "mean_corner_error_px": 5.01,
+      "iou": 0.9721,
+      "ocr_by_method": {
+        "clahe": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "Tackling Tibet",
+              "matched": false,
+              "best_ocr_line": null,
+              "similarity": 0.0
+            }
+          ]
+        },
+        "adaptive": {
+          "recall": 0.0,
+          "phrases": [
+            {
+              "phrase": "Tackling Tibet",
+              "matched": false,
+              "best_ocr_line": null,
+              "similarity": 0.0
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
