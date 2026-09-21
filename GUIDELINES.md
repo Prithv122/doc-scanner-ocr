@@ -21,7 +21,7 @@ see NOTES.md) · pytest · ruff · GitHub Actions.
 - [x] PaddleOCR → structured JSON output (text + confidence + box per line)
 - [x] Measured against real photographed documents, not synthetic-only (README §2, §5)
 - [x] Real numbers: 9/9 detection, 5.1px mean corner error, CLAHE-vs-adaptive OCR comparison
-- [ ] Ship gate passes (`/ship`)
+- [ ] Ship gate passes
 
 ## Project-specific notes
 
